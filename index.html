@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAXSI DEVELOPER</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0d14;
+      color: white;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 25px 7%;
+      background: #111522;
+      border-bottom: 1px solid #292e40;
+    }
+
+    header h1 {
+      color: #8b78ff;
+      font-size: 25px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      color: #9ba3b7;
+      margin-top: 7px;
+      font-size: 13px;
+    }
+
+    main {
+      width: 90%;
+      max-width: 1100px;
+      margin: 45px auto;
+    }
+
+    .welcome {
+      margin-bottom: 35px;
+    }
+
+    .welcome h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .welcome p {
+      color: #a5abc0;
+      line-height: 1.6;
+    }
+
+    .bots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .bot-card {
+      background: #151a29;
+      border: 1px solid #2b3147;
+      border-radius: 15px;
+      padding: 25px;
+      transition: 0.2s;
+    }
+
+    .bot-card:hover {
+      border-color: #8b78ff;
+      transform: translateY(-3px);
+    }
+
+    .bot-card .emoji {
+      font-size: 35px;
+      margin-bottom: 18px;
+    }
+
+    .bot-card h3 {
+      font-size: 21px;
+      margin-bottom: 10px;
+    }
+
+    .bot-card p {
+      color: #a5abc0;
+      font-size: 14px;
+      line-height: 1.6;
+      min-height: 65px;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 7px 11px;
+      border-radius: 20px;
+      background: #332b19;
+      color: #ffd27a;
+      font-size: 12px;
+    }
+
+    .info {
+      margin-top: 30px;
+      padding: 20px;
+      background: #151a29;
+      border: 1px solid #2b3147;
+      border-radius: 12px;
+      color: #a5abc0;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #697087;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>RAXSI DEVELOPER</h1>
+    <p>PUBG ESPORTS BOT PLATFORM</p>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h2>Kontrol Paneline Hoş Geldin</h2>
+      <p>Botlarını tek bir platformdan yönetebileceğin RAXSI DEVELOPER sistemine hoş geldin.</p>
+    </section>
+
+    <section class="bots">
+      <div class="bot-card">
+        <div class="emoji">🏆</div>
+        <h3>LiveScore</h3>
+        <p>Maç sonuçları, sıralamalar ve puan tabloları.</p>
+        <span class="status">Dosyalar bağlanacak</span>
+      </div>
+
+      <div class="bot-card">
+        <div class="emoji">🎰</div>
+        <h3>Slot Botu</h3>
+        <p>Takımları slotlara yerleştirme ve slot tablosu oluşturma.</p>
+        <span class="status">Dosyalar bağlanacak</span>
+      </div>
+
+      <div class="bot-card">
+        <div class="emoji">🥇</div>
+        <h3>MVP Botu</h3>
+        <p>Oyuncu performansları ve MVP sonuçlarını takip etme.</p>
+        <span class="status">Dosyalar bağlanacak</span>
+      </div>
+    </section>
+
+    <div class="info">
+      <strong>Bilgi:</strong> Platformun ana ekranı hazırlanıyor.
+      Botların çalışması için mevcut bot dosyalarının projeye aktarılması
+      ve gerekli bağlantıların kurulması gerekiyor.
+    </div>
+  </main>
+
+  <footer>
+    RAXSI DEVELOPER © 2026
+  </footer>
+</body>
+</html>
